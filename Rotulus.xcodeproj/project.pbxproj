@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0761DA8614CD62F818BB89F1 /* Chrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDF33F5BEDB821E564E932 /* Chrome.swift */; };
+		09593A7AE073FA06F1DD2B25 /* RotulusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05E4127F435ECF0FAA35A9 /* RotulusTests.swift */; };
+		21E4A4EE36517A31BDDF0360 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D3BAB04EDDB602907E512 /* APIConfig.swift */; };
+		28EF2CCCC9E3927DC6AB6680 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5536732F374F040EA39672A6 /* SettingsView.swift */; };
+		2D8D97D433641B72A56D86FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E97131C2FD9B1ACEF0C257 /* ContentView.swift */; };
+		31E2D882C7DFE962829F13D0 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97C68B3EC470D2D9417015 /* ReviewLaunch.swift */; };
+		4063D17ED25CF85316998F10 /* Furl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA143EEBE122EFCC938F30 /* Furl.swift */; };
+		43F7024AE4C3364F73153269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835ABDC8AC308FC055C2605 /* AppDelegate.swift */; };
+		478EF79DC8B8787CE964D9DA /* RitualArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF024F5B4FE5080A7CA9A1 /* RitualArchive.swift */; };
+		482DED7E20723FFA2E45E7B0 /* AmbientDither.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349BE34E35C4D003173E5580 /* AmbientDither.swift */; };
+		4DB53B046EF5AB2A41D6533D /* WaftMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4B8D25F28E5CE2BFA203E /* WaftMark.swift */; };
+		5555CE96D734B53B6475B092 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46647B3CB94C9E8F5CF50C /* HistoryView.swift */; };
+		5CFC586752430AB703E3C3DE /* RotulusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D1865C30DF662CFD9DB9F /* RotulusApp.swift */; };
+		7372A12198B5E0B932DDC746 /* LineMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D23F3EB5A9F600D4ECBA0E /* LineMark.swift */; };
+		73DEF3F5200D520B8EC6448D /* NightMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BD8425D778B498BE408A5C /* NightMark.swift */; };
+		79B4CE8A57AD0B211B785C16 /* ReflectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E06258EF744288576B26C2 /* ReflectView.swift */; };
+		7B6846024890DD6AC7A23568 /* RollMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8C3A068985F039E8071BF /* RollMark.swift */; };
+		9191EF53DDF84BC11296FF88 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DBCEA02360A4F5D1F732CD /* OnboardingView.swift */; };
+		A69D0C10660995DD82FAF466 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4846F4B4A4604531C67EF2 /* DesignTokens.swift */; };
+		A9C378BC9A33DC0EF1CCF38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34DFBA8CD00161CE49350E /* Assets.xcassets */; };
+		B08E12EDF1A7EFA26C9E7A81 /* NightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EA91B168423A145D548F69 /* NightScreen.swift */; };
+		B139CD6E0CCE86860A614FCC /* RitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE69BCE1A04A3864CFE889 /* RitualView.swift */; };
+		B151804D42328652FBEC233E /* RitualRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD17A5C5F9E38C59C19CEE /* RitualRecord.swift */; };
+		B52F42909D8A0CE7ED1B666A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AFC3AB39B5094CE6E021320D /* Alamofire */; };
+		B6E43128F290DFBCCB7ABB38 /* RitualSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DD017D257D1DC5AEB2292 /* RitualSurface.swift */; };
+		BD6FEC3175B03859570B0666 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721470DBE6D64AF9E7BCAAC0 /* Scroll.swift */; };
+		C76415CAAFC07FEF4BDE2DF4 /* RitualSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624964787FBCDCE9385A34B /* RitualSession.swift */; };
+		C9B0B65A65096EC1489E3EED /* Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654221D1808F9A6968335E43 /* Blank.swift */; };
+		D014590C3EB2ACAA1A6F07DE /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBD4BF5831D060D69DAC5 /* Set.swift */; };
+		E57CDDB1DE16FBFFE5F9DB64 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B7DA306DA41B7D80C7AE /* DayKey.swift */; };
+		E8527D5E6B8658DB5E9D4B68 /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684B967A51FC4CA52BDD29A /* Panel.swift */; };
+		EC3EBFDA90D30C0937AE1803 /* RolledScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872AF05F4D5B4510440B7BB /* RolledScreen.swift */; };
+		F2DB1896C033D3ECBE06ACAE /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5705437F98CD70C6F64A6B2A /* BreatheView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6514405F69A22FF528FD114F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E7F4B679048B0BC22C6DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66562AECBF3AA4AF7E48566D;
+			remoteInfo = Rotulus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132D4F98DDEDCE30F0805DFD /* RotulusTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RotulusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164D1865C30DF662CFD9DB9F /* RotulusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotulusApp.swift; sourceTree = "<group>"; };
+		26DD17A5C5F9E38C59C19CEE /* RitualRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualRecord.swift; sourceTree = "<group>"; };
+		2835ABDC8AC308FC055C2605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33DBCEA02360A4F5D1F732CD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		349BE34E35C4D003173E5580 /* AmbientDither.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientDither.swift; sourceTree = "<group>"; };
+		34D23F3EB5A9F600D4ECBA0E /* LineMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMark.swift; sourceTree = "<group>"; };
+		44EA91B168423A145D548F69 /* NightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightScreen.swift; sourceTree = "<group>"; };
+		453DD017D257D1DC5AEB2292 /* RitualSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualSurface.swift; sourceTree = "<group>"; };
+		52AE69BCE1A04A3864CFE889 /* RitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualView.swift; sourceTree = "<group>"; };
+		5536732F374F040EA39672A6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		562CBD4BF5831D060D69DAC5 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		5705437F98CD70C6F64A6B2A /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		5ADDF33F5BEDB821E564E932 /* Chrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
+		5D05E4127F435ECF0FAA35A9 /* RotulusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotulusTests.swift; sourceTree = "<group>"; };
+		5EB4B8D25F28E5CE2BFA203E /* WaftMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaftMark.swift; sourceTree = "<group>"; };
+		5EBFDB60875C8EC457EDDBFD /* Rotulus.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Rotulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654221D1808F9A6968335E43 /* Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
+		6872AF05F4D5B4510440B7BB /* RolledScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolledScreen.swift; sourceTree = "<group>"; };
+		721470DBE6D64AF9E7BCAAC0 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
+		78F8C3A068985F039E8071BF /* RollMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollMark.swift; sourceTree = "<group>"; };
+		7C34DFBA8CD00161CE49350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D46647B3CB94C9E8F5CF50C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		84E06258EF744288576B26C2 /* ReflectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectView.swift; sourceTree = "<group>"; };
+		8B97C68B3EC470D2D9417015 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		9ADA143EEBE122EFCC938F30 /* Furl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furl.swift; sourceTree = "<group>"; };
+		9B69B7DA306DA41B7D80C7AE /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		A0E97131C2FD9B1ACEF0C257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B624964787FBCDCE9385A34B /* RitualSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualSession.swift; sourceTree = "<group>"; };
+		C5BD8425D778B498BE408A5C /* NightMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightMark.swift; sourceTree = "<group>"; };
+		C684B967A51FC4CA52BDD29A /* Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		D78D3BAB04EDDB602907E512 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		FA4846F4B4A4604531C67EF2 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		FFBF024F5B4FE5080A7CA9A1 /* RitualArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualArchive.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB132727CB2468DD9340BE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52F42909D8A0CE7ED1B666A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F5DC8A9F3A863DA5D72C76 /* RotulusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D05E4127F435ECF0FAA35A9 /* RotulusTests.swift */,
+			);
+			path = RotulusTests;
+			sourceTree = "<group>";
+		};
+		835F506E1746004F2C77315D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBFDB60875C8EC457EDDBFD /* Rotulus.app */,
+				132D4F98DDEDCE30F0805DFD /* RotulusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE6D85BF0AC82E61CF7436F /* Rotulus */ = {
+			isa = PBXGroup;
+			children = (
+				349BE34E35C4D003173E5580 /* AmbientDither.swift */,
+				D78D3BAB04EDDB602907E512 /* APIConfig.swift */,
+				2835ABDC8AC308FC055C2605 /* AppDelegate.swift */,
+				7C34DFBA8CD00161CE49350E /* Assets.xcassets */,
+				654221D1808F9A6968335E43 /* Blank.swift */,
+				5705437F98CD70C6F64A6B2A /* BreatheView.swift */,
+				5ADDF33F5BEDB821E564E932 /* Chrome.swift */,
+				A0E97131C2FD9B1ACEF0C257 /* ContentView.swift */,
+				9B69B7DA306DA41B7D80C7AE /* DayKey.swift */,
+				FA4846F4B4A4604531C67EF2 /* DesignTokens.swift */,
+				9ADA143EEBE122EFCC938F30 /* Furl.swift */,
+				7D46647B3CB94C9E8F5CF50C /* HistoryView.swift */,
+				34D23F3EB5A9F600D4ECBA0E /* LineMark.swift */,
+				C5BD8425D778B498BE408A5C /* NightMark.swift */,
+				44EA91B168423A145D548F69 /* NightScreen.swift */,
+				33DBCEA02360A4F5D1F732CD /* OnboardingView.swift */,
+				C684B967A51FC4CA52BDD29A /* Panel.swift */,
+				84E06258EF744288576B26C2 /* ReflectView.swift */,
+				8B97C68B3EC470D2D9417015 /* ReviewLaunch.swift */,
+				FFBF024F5B4FE5080A7CA9A1 /* RitualArchive.swift */,
+				26DD17A5C5F9E38C59C19CEE /* RitualRecord.swift */,
+				B624964787FBCDCE9385A34B /* RitualSession.swift */,
+				453DD017D257D1DC5AEB2292 /* RitualSurface.swift */,
+				52AE69BCE1A04A3864CFE889 /* RitualView.swift */,
+				6872AF05F4D5B4510440B7BB /* RolledScreen.swift */,
+				78F8C3A068985F039E8071BF /* RollMark.swift */,
+				164D1865C30DF662CFD9DB9F /* RotulusApp.swift */,
+				721470DBE6D64AF9E7BCAAC0 /* Scroll.swift */,
+				562CBD4BF5831D060D69DAC5 /* Set.swift */,
+				5536732F374F040EA39672A6 /* SettingsView.swift */,
+				5EB4B8D25F28E5CE2BFA203E /* WaftMark.swift */,
+			);
+			path = Rotulus;
+			sourceTree = "<group>";
+		};
+		CF40ABBC2A94A9EB43DEEF60 = {
+			isa = PBXGroup;
+			children = (
+				BBE6D85BF0AC82E61CF7436F /* Rotulus */,
+				03F5DC8A9F3A863DA5D72C76 /* RotulusTests */,
+				835F506E1746004F2C77315D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E45B33F5A267EE51022DF8 /* RotulusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3087D61DF620148DE856A0D7 /* Build configuration list for PBXNativeTarget "RotulusTests" */;
+			buildPhases = (
+				D30BB711F4C6A426F24A9F23 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A01529906794DF1C0511C5D /* PBXTargetDependency */,
+			);
+			name = RotulusTests;
+			packageProductDependencies = (
+			);
+			productName = RotulusTests;
+			productReference = 132D4F98DDEDCE30F0805DFD /* RotulusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66562AECBF3AA4AF7E48566D /* Rotulus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FBBF10E1ABA6EB96E643E94 /* Build configuration list for PBXNativeTarget "Rotulus" */;
+			buildPhases = (
+				9FED586A9E53A658FB54824B /* Sources */,
+				B1BED02D758AEA6BA93AC1F0 /* Resources */,
+				DB132727CB2468DD9340BE6C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rotulus;
+			packageProductDependencies = (
+				AFC3AB39B5094CE6E021320D /* Alamofire */,
+			);
+			productName = Rotulus;
+			productReference = 5EBFDB60875C8EC457EDDBFD /* Rotulus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E7F4B679048B0BC22C6DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02E45B33F5A267EE51022DF8 = {
+						ProvisioningStyle = Automatic;
+					};
+					66562AECBF3AA4AF7E48566D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFA5A5FC4807C63B96AD0723 /* Build configuration list for PBXProject "Rotulus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF40ABBC2A94A9EB43DEEF60;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DAC861DA5F272DF739449032 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 835F506E1746004F2C77315D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66562AECBF3AA4AF7E48566D /* Rotulus */,
+				02E45B33F5A267EE51022DF8 /* RotulusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BED02D758AEA6BA93AC1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C378BC9A33DC0EF1CCF38C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FED586A9E53A658FB54824B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E4A4EE36517A31BDDF0360 /* APIConfig.swift in Sources */,
+				482DED7E20723FFA2E45E7B0 /* AmbientDither.swift in Sources */,
+				43F7024AE4C3364F73153269 /* AppDelegate.swift in Sources */,
+				C9B0B65A65096EC1489E3EED /* Blank.swift in Sources */,
+				F2DB1896C033D3ECBE06ACAE /* BreatheView.swift in Sources */,
+				0761DA8614CD62F818BB89F1 /* Chrome.swift in Sources */,
+				2D8D97D433641B72A56D86FA /* ContentView.swift in Sources */,
+				E57CDDB1DE16FBFFE5F9DB64 /* DayKey.swift in Sources */,
+				A69D0C10660995DD82FAF466 /* DesignTokens.swift in Sources */,
+				4063D17ED25CF85316998F10 /* Furl.swift in Sources */,
+				5555CE96D734B53B6475B092 /* HistoryView.swift in Sources */,
+				7372A12198B5E0B932DDC746 /* LineMark.swift in Sources */,
+				73DEF3F5200D520B8EC6448D /* NightMark.swift in Sources */,
+				B08E12EDF1A7EFA26C9E7A81 /* NightScreen.swift in Sources */,
+				9191EF53DDF84BC11296FF88 /* OnboardingView.swift in Sources */,
+				E8527D5E6B8658DB5E9D4B68 /* Panel.swift in Sources */,
+				79B4CE8A57AD0B211B785C16 /* ReflectView.swift in Sources */,
+				31E2D882C7DFE962829F13D0 /* ReviewLaunch.swift in Sources */,
+				478EF79DC8B8787CE964D9DA /* RitualArchive.swift in Sources */,
+				B151804D42328652FBEC233E /* RitualRecord.swift in Sources */,
+				C76415CAAFC07FEF4BDE2DF4 /* RitualSession.swift in Sources */,
+				B6E43128F290DFBCCB7ABB38 /* RitualSurface.swift in Sources */,
+				B139CD6E0CCE86860A614FCC /* RitualView.swift in Sources */,
+				7B6846024890DD6AC7A23568 /* RollMark.swift in Sources */,
+				EC3EBFDA90D30C0937AE1803 /* RolledScreen.swift in Sources */,
+				5CFC586752430AB703E3C3DE /* RotulusApp.swift in Sources */,
+				BD6FEC3175B03859570B0666 /* Scroll.swift in Sources */,
+				D014590C3EB2ACAA1A6F07DE /* Set.swift in Sources */,
+				28EF2CCCC9E3927DC6AB6680 /* SettingsView.swift in Sources */,
+				4DB53B046EF5AB2A41D6533D /* WaftMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30BB711F4C6A426F24A9F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09593A7AE073FA06F1DD2B25 /* RotulusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A01529906794DF1C0511C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66562AECBF3AA4AF7E48566D /* Rotulus */;
+			targetProxy = 6514405F69A22FF528FD114F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		294B7BDA3E2FD7C708D4EB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		39C5122D42570D1F90AE316E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		7C5E3DB58922F559542BE3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickadee;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll;
+				PRODUCT_NAME = Rotulus;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C04B52E75BDCA08A43D25870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickadee;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll;
+				PRODUCT_NAME = Rotulus;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F503F8D9F9E535725A4AEF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotulus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotulus";
+			};
+			name = Debug;
+		};
+		FBE3494A6EA9B67B6C80D2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotulus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotulus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3087D61DF620148DE856A0D7 /* Build configuration list for PBXNativeTarget "RotulusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F503F8D9F9E535725A4AEF64 /* Debug */,
+				FBE3494A6EA9B67B6C80D2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FBBF10E1ABA6EB96E643E94 /* Build configuration list for PBXNativeTarget "Rotulus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04B52E75BDCA08A43D25870 /* Debug */,
+				7C5E3DB58922F559542BE3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DFA5A5FC4807C63B96AD0723 /* Build configuration list for PBXProject "Rotulus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294B7BDA3E2FD7C708D4EB0A /* Debug */,
+				39C5122D42570D1F90AE316E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAC861DA5F272DF739449032 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/petarlovrojukic-a11y/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 9799237b84cbd97f80a3ac9b69b30ba65139f752;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFC3AB39B5094CE6E021320D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAC861DA5F272DF739449032 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 82E7F4B679048B0BC22C6DBD /* Project object */;
+}

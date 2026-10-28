@@ -1,0 +1,1 @@
+Initial release of Chickadee: a private evening ritual with Reflect, Breathe, and Ambient chambers, a timed breathing count, progress totals, adjustable durations, and on-device history.

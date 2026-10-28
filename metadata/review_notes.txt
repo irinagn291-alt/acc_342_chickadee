@@ -1,0 +1,13 @@
+No system permissions are requested, so no permission prompt appears and there are no usage-description strings. There is no login, in-app purchase, account deletion flow, or App Tracking Transparency prompt. User-generated content is present: people write their own ritual lines.
+
+Chickadee is a private evening ritual for people who want to write down the day and wind down before bed. It guides them through Reflect, Breathe, and Ambient, then keeps sealed nights on the device.
+
+On cold launch, wait for the brief loading state. On onboarding, the pages say “End the day on one scroll. Three chambers, in order.”, “Commit one release line, or skip the chamber.”, and “Roll the night shut. It stays on this device.” Tap “Continue” through the pages or “Skip” to finish onboarding. On “Tonight,” enter a “Release line” and tap “Commit line” or “Skip,” then tap “Advance” after marking or skipping each chamber. In “Breathe,” tap “Start breath” to begin the timed count, then commit or tap “Skip this chamber.” After all three chambers are marked or skipped, tap “Seal night.” Tap “History” to open saved nights and select a night for its read-only “Night” screen. “Settings” opens preferences; “Show rite” returns to the ritual. No credentials or demo account are needed.
+
+Ritual lines, settings, and sealed nights stay on this device. “Contact” in “Settings” is the support link.
+
+No region-specific behavior is identified in the native interface.
+
+No licence or regulated-industry paperwork applies: the app is a personal evening writing ritual and does not show health, medical, or product-health information.
+
+The app is a personal log only and gives no recommendations. It does not scan barcodes or QR codes.

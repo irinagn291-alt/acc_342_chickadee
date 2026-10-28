@@ -1,0 +1,12 @@
+Chickadee is a private evening ritual for writing down the day and winding down before bed. Move through Reflect, Breathe, and Ambient, then seal the night on your device.
+
+• Write a “Release line” in each chamber or skip it.
+• Follow the timed Breathe count with “Settle,” “Draw,” “Release,” and “Rest” cues.
+• Use “Advance” to move through the chambers and “Seal night” to save the ritual.
+• Track your streak, “Nights,” and “Best” totals.
+• Browse sealed nights in newest-first “History” and open read-only night details.
+• Adjust chamber durations and the “Haptics” setting in “Settings.”
+• Continue an unfinished ritual when you reopen the app.
+• Keep ritual lines, settings, and sealed nights on this device.
+
+For a quiet end-of-day writing ritual, with no system permissions requested.
