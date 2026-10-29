@@ -1,1 +1,3 @@
-Initial release of Chickadee: a private evening ritual with Reflect, Breathe, and Ambient chambers, a timed breathing count, progress totals, adjustable durations, and on-device history.
+Version 1.1 keeps Chickadee Pro polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app

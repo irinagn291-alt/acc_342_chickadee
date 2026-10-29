@@ -69,7 +69,7 @@
 		5ADDF33F5BEDB821E564E932 /* Chrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrome.swift; sourceTree = "<group>"; };
 		5D05E4127F435ECF0FAA35A9 /* RotulusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotulusTests.swift; sourceTree = "<group>"; };
 		5EB4B8D25F28E5CE2BFA203E /* WaftMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaftMark.swift; sourceTree = "<group>"; };
-		5EBFDB60875C8EC457EDDBFD /* Rotulus.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Rotulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBFDB60875C8EC457EDDBFD /* Rotulus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654221D1808F9A6968335E43 /* Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
 		6872AF05F4D5B4510440B7BB /* RolledScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolledScreen.swift; sourceTree = "<group>"; };
 		721470DBE6D64AF9E7BCAAC0 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
@@ -441,7 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Chickadee;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -455,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll;
 				PRODUCT_NAME = Rotulus;
 				SDKROOT = iphoneos;
@@ -472,7 +472,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = TQA73XJF6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Chickadee;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -486,8 +487,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rotulus.scroll;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martens.test;
 				PRODUCT_NAME = Rotulus;
 				SDKROOT = iphoneos;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
