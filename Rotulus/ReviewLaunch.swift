@@ -23,6 +23,7 @@ enum ReviewLaunch {
 
     /// Cover launches pass `-ReviewScreen`. Freeze UIKit transitions so the
     /// screenshot is the destination, not a mid-animation. No-op on watchOS.
+    @MainActor
     static func disableAnimationsIfNeeded() {
         #if os(iOS)
         if ProcessInfo.processInfo.arguments.contains(argument) {
